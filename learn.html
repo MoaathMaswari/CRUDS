@@ -1,0 +1,76 @@
+<!Doctype html>
+<html lang=ar>
+<head>
+
+<title>Shoot HTML</title>
+<link rel="stylesheet" href="learn.css" Smedia="all">
+
+
+
+
+
+</head>
+<body>
+
+<div class='all'>
+
+
+<header>
+
+
+<h1>mas project</h1>
+
+</header>
+
+<div class='inps'>
+    <form ><label for="in1">Name: </label>
+<input id="in1" class="inp" type="text" placeholder="Product Name">
+<label for="in2">Type: </label>
+<input id="in2" class="inp" type="text" placeholder="Product Type">
+<label for="in3">Price</label>
+<input id="in3" class="inp" type="number" placeholder="Product Price">
+<label for="in4">Count</label>
+<input id="in4" class="inp" type="number" placeholder="Product Count" value="1">
+</form>
+
+
+</div>
+
+
+<div class='btn'>
+
+<button id="ce" onclick='save()'>Create</button>
+<button id="sch" onclick="search()">Search</button>
+
+</div>
+
+<input onkeyup="find()" id="inp5" class="inp" type="text" placeholder="Enter name or type...">
+
+
+<table>
+
+<thead>
+        
+<tr>
+<th>id</th>
+<th>Name</th>
+<th>price</th>
+<th>count</th>
+<th>type</th>
+<th>Edit</th>
+<th>delete</th>
+</tr>
+
+</thead>
+
+<tbody></tbody>
+
+</table>
+
+<div id="scroll" onclick="scrolll()">UP</div>
+
+</div>
+<script src="learn.js"></script>
+</body>
+
+</html>

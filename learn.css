@@ -1,0 +1,128 @@
+*{
+margin:0s;
+padding:0;
+}
+body{
+    background-color: #555;
+color: #000;
+min-height: 1000px;
+font-size: larger;
+}
+.all{
+   
+width: 90%;
+margin: auto;
+}
+header{ 
+text-align: center;     
+padding:1px 0;
+margin:5px 0;
+color: #000;
+font-family:fantasy;
+font-size: larger;
+text-transform: uppercase;
+border-radius: 15px;
+}
+
+header h1,header h2{
+    font-size: 5vh;
+
+ }
+
+input{
+width: 50%;
+height: 7vh;
+border: none;
+display: block;
+border-radius: 100px;
+outline: none;
+font-weight: bolder;
+font-size: 2vw;
+margin:15px auto;
+padding:7px;
+background: #ccc;
+color: #000;
+transition: 0.5s;
+
+}
+
+input::placeholder{
+    
+font-size: 1.5vw;
+font-style: oblique;
+font-weight: bold;
+    color: #000;
+}
+input:focus{
+transform: scale(1.2);
+background: #aaa;
+}
+.btn{
+margin: 6vh auto;
+}
+button{
+
+height: 7vh;
+font-size: 3vh;
+border-radius: 50px;
+width: 100%;
+margin:2vh;
+background-color: #ccc;
+color: #000;
+outline: none;
+transition: .5s;
+display: block;
+
+text-transform: uppercase;
+
+}
+
+button:hover{
+transform: scale(1.1);
+cursor: pointer;
+background-color: rgb(100, 11, 35);
+color:yellow;
+
+}
+
+#inp5{
+display: none;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+th{
+    text-transform: uppercase;
+    padding: 7px;
+    font-size: 4vh; 
+}
+
+td{
+padding:5px ;
+}
+#scroll{
+background-color: #c11;
+width: 30px;
+height: 25px;
+position: fixed;
+right: 10px;
+bottom: 30px;
+border-radius: 10px;
+text-align: center;
+display: none;
+transition: .5s;
+padding-top:8px ;
+}
+#scroll:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(100, 11, 35);
+    transform: scale(1.3);
+
+}
+label{
+    font-size: 3vw;
+}
