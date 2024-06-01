@@ -52,6 +52,7 @@ font-size: 1.5vw;
 font-style: oblique;
 font-weight: bold;
     color: #000;
+    opacity: .5;
 }
 input:focus{
 transform: scale(1.2);
