@@ -45,7 +45,6 @@ row.appendChild(pd);
 }
 }
 
-
 //save
 
 function save(d=e){
@@ -70,6 +69,7 @@ let pro={
 }
 
 info.push(pro);
+
 localStorage.inf=JSON.stringify(info);
 in1.value='';
 in2.value='';
